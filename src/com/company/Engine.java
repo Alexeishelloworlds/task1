@@ -1,6 +1,6 @@
 package com.company;
 
-public class Engine {
+public abstract class Engine {
     private String fuel;
     private double power;//лошадиные силы
 
@@ -13,11 +13,7 @@ public class Engine {
         return power;
     }
 
-    public void go(){
-        System.out.println("Абстрактный двигатель работает");
-    }
+    public abstract void go();
 
-    public void stop(){
-        System.out.println("Абстрактный двигатель остановлен");
-    }
+    public abstract void stop();
 }
