@@ -1,4 +1,6 @@
-package com.company;
+package com.company.car;
+
+import com.company.engine.Engine;
 
 public class Car {
     private String model;

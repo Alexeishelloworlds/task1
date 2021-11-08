@@ -1,8 +1,8 @@
-package com.company;
+package com.company.engine;
 
 public abstract class Engine {
     private String fuel;
-    private double power;//лошадиные силы
+    private double power;
 
     public Engine(String fuel, double power){
         this.fuel=fuel;
