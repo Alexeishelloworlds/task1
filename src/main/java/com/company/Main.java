@@ -1,4 +1,4 @@
-package com.company.runner;
+package com.company;
 
 import com.company.car.Car;
 import com.company.engine.Diesel;
